@@ -1,0 +1,30 @@
+
+
+#ifndef __T_CONFIG_H
+#define __T_CONFIG_H
+
+#define TINY_OS_PRO_COUNT		32
+
+#define TINY_OS_SLICE_MAX		10
+
+#define TINY_OS_STACK_SIZE		1024
+
+#define TINY_OS_STIMERTASK_STACK_SIZE	1024
+
+#define TINY_OS_STIMER_TASK_PRIO		1
+
+#define TINY_OS_SYSTEM_TICK_MS			10
+#define TINY_OS_TICKS_PER_SEC			100
+
+/* config */
+#define TINYOS_ENABLE_SEM				1
+#define TINYOS_ENABLE_MUTEX				0
+#define TINYOS_ENABLE_FLAGGROUP			0
+#define TINYOS_ENABLE_MBOX				0
+#define TINYOS_ENABLE_MEMBLOCK			0
+#define TINYOS_ENABLE_STIMER			1
+#define TINYOS_ENABLE_CPUUSAGE			1
+#define TINYOS_ENABLE_HOOKS				1
+
+
+#endif
